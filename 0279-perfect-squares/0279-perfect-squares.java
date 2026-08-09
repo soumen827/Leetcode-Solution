@@ -7,7 +7,7 @@ class Solution {
         if(isPerfect(n)) return 1; //base
         if(dp[n]!=-1) return dp[n];
         int min = Integer.MAX_VALUE;
-        for(int i=1;i*i<=n;i++){
+        for(int i=1;i*i<=n;i++){ // i<=sqrt(n) --> i^2<=n
             int count = minSquares(i*i,dp) + minSquares(n-i*i,dp);
             min = Math.min(count,min);
         }
