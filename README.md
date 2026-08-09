@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/soumen827/Leetcode/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/soumen827/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/soumen827/Leetcode/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
 | [0326-power-of-three](https://github.com/soumen827/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/soumen827/Leetcode/tree/master/0342-power-of-four) |
 | [0509-fibonacci-number](https://github.com/soumen827/Leetcode/tree/master/0509-fibonacci-number) |
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/soumen827/Leetcode/tree/master/0118-pascals-triangle) |
 | [0198-house-robber](https://github.com/soumen827/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/soumen827/Leetcode/tree/master/0213-house-robber-ii) |
+| [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
 | [0509-fibonacci-number](https://github.com/soumen827/Leetcode/tree/master/0509-fibonacci-number) |
 | [0746-min-cost-climbing-stairs](https://github.com/soumen827/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/soumen827/Leetcode/tree/master/1137-n-th-tribonacci-number) |
@@ -503,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/soumen827/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0112-path-sum](https://github.com/soumen827/Leetcode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/soumen827/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
 | [1284-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix](https://github.com/soumen827/Leetcode/tree/master/1284-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) |
 | [2596-check-knight-tour-configuration](https://github.com/soumen827/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Design
@@ -599,4 +602,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/soumen827/Leetcode/tree/master/0062-unique-paths) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
 <!---LeetCode Topics End-->
