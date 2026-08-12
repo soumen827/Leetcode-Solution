@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/soumen827/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/soumen827/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0493-reverse-pairs](https://github.com/soumen827/Leetcode/tree/master/0493-reverse-pairs) |
+| [0494-target-sum](https://github.com/soumen827/Leetcode/tree/master/0494-target-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/soumen827/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/soumen827/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/soumen827/Leetcode/tree/master/0645-set-mismatch) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/soumen827/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/soumen827/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/soumen827/Leetcode/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/soumen827/Leetcode/tree/master/0509-fibonacci-number) |
 | [0746-min-cost-climbing-stairs](https://github.com/soumen827/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/soumen827/Leetcode/tree/master/1137-n-th-tribonacci-number) |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/soumen827/Leetcode/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/soumen827/Leetcode/tree/master/0113-path-sum-ii) |
 | [0257-binary-tree-paths](https://github.com/soumen827/Leetcode/tree/master/0257-binary-tree-paths) |
+| [0494-target-sum](https://github.com/soumen827/Leetcode/tree/master/0494-target-sum) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -615,6 +618,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/soumen827/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/soumen827/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/soumen827/Leetcode/tree/master/0494-target-sum) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/soumen827/Leetcode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Complete Knapsack
 |  |
@@ -625,5 +629,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/soumen827/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/soumen827/Leetcode/tree/master/0494-target-sum) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/soumen827/Leetcode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 <!---LeetCode Topics End-->
