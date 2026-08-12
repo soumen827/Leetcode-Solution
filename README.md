@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0260-single-number-iii](https://github.com/soumen827/Leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/soumen827/Leetcode/tree/master/0268-missing-number) |
 | [0303-range-sum-query-immutable](https://github.com/soumen827/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0322-coin-change](https://github.com/soumen827/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/soumen827/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/soumen827/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0493-reverse-pairs](https://github.com/soumen827/Leetcode/tree/master/0493-reverse-pairs) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/soumen827/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/soumen827/Leetcode/tree/master/0213-house-robber-ii) |
 | [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
+| [0322-coin-change](https://github.com/soumen827/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/soumen827/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/soumen827/Leetcode/tree/master/0509-fibonacci-number) |
 | [0746-min-cost-climbing-stairs](https://github.com/soumen827/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
@@ -508,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/soumen827/Leetcode/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/soumen827/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
+| [0322-coin-change](https://github.com/soumen827/Leetcode/tree/master/0322-coin-change) |
 | [1284-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix](https://github.com/soumen827/Leetcode/tree/master/1284-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) |
 | [2596-check-knight-tour-configuration](https://github.com/soumen827/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Design
@@ -608,11 +611,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
+| [0322-coin-change](https://github.com/soumen827/Leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/soumen827/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 ## Complete Knapsack
 |  |
 | ------- |
 | [0279-perfect-squares](https://github.com/soumen827/Leetcode/tree/master/0279-perfect-squares) |
+| [0322-coin-change](https://github.com/soumen827/Leetcode/tree/master/0322-coin-change) |
 ## 0-1 Knapsack
 |  |
 | ------- |
