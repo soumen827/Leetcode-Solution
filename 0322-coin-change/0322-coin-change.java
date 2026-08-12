@@ -7,14 +7,14 @@ class Solution {
             }
         }
         int ans =(int)noOfCoin(0,coins,amount,dp); //convert long to int
-        if(ans==Integer.MAX_VALUE) return -1;
+        if(ans==Integer.MAX_VALUE) return -1; // for the test case  max value aya to -1 retuen 
         else return ans;
          
     }
     public long noOfCoin(int i, int[] coins, int amount,long[][]dp) {
         if(i==coins.length) {
             if(amount==0) return 0;// no more coin needed
-            else return Integer.MAX_VALUE;// not a valid combination
+            else return Integer.MAX_VALUE;// not a valid combination not return 1
         }
         if(dp[i][amount] != -1) return (dp[i][amount]);
         long skip = noOfCoin(i+1,coins,amount,dp);
