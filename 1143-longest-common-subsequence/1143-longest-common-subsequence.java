@@ -16,7 +16,7 @@ class Solution {
         if(i<0 || j<0) return 0;
         if(dp[i][j] != -1) return  dp[i][j];
         if(a.charAt(i)==b.charAt(j)) return 1+ lcs(i-1,j-1,a,b,dp);
-        else return dp[i][j] = Math.max(lcs(i-1,j,a,b,dp),lcs(i,j-1,a,b,dp));
+        else return dp[i][j] = Math.max(lcs(i-1,j,a,b,dp),lcs(i,j-1,a,b,dp)); // akbar i-- j same rakha , or akbar j-- and i same 
         
     }
 }
