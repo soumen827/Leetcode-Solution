@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/soumen827/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/soumen827/Leetcode/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/soumen827/Leetcode/tree/master/0038-count-and-say) |
+| [0072-edit-distance](https://github.com/soumen827/Leetcode/tree/master/0072-edit-distance) |
 | [0205-isomorphic-strings](https://github.com/soumen827/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/soumen827/Leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/soumen827/Leetcode/tree/master/0257-binary-tree-paths) |
@@ -255,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/soumen827/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/soumen827/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/soumen827/Leetcode/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/soumen827/Leetcode/tree/master/0072-edit-distance) |
 | [0118-pascals-triangle](https://github.com/soumen827/Leetcode/tree/master/0118-pascals-triangle) |
 | [0198-house-robber](https://github.com/soumen827/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/soumen827/Leetcode/tree/master/0213-house-robber-ii) |
