@@ -14,7 +14,7 @@ class Solution {
                 dp[i][j] = -1;
             }
         }
-       return m+n - (2*lcs(m-1,n-1,a,b,dp)); 
+       return m+n - (2*lcs(m-1,n-1,a,b,dp)); // formula rest all are same 
     }
  
     public int lcs(int i, int j,StringBuilder a, StringBuilder b,int[][]dp) {
