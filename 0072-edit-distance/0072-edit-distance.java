@@ -1,25 +1,29 @@
 class Solution {
-    public int minDistance(String a, String b) {
+    public int minDistance(String word1, String word2) {
+        StringBuilder a = new StringBuilder(word1);
+        StringBuilder b = new StringBuilder(word2);
         int m = a.length(), n = b.length();
-        if (m == 0) return n;
-        if (n == 0) return m;
-        int[][] dp = new int[2][n + 1];
-        // First row: a = ""
-        for (int j = 0; j <= n; j++)  dp[0][j] = j;
-        for (int i = 1; i <= m; i++) {
-            // First column
-            dp[1][0] = i;
-            for (int j = 1; j <= n; j++) {
-                int p = dp[0][j - 1]; // diagonal
-                int q = dp[1][j - 1]; // left
-                int r = dp[0][j];     // up
-                if (a.charAt(i - 1) == b.charAt(j - 1))  dp[1][j] = p; else dp[1][j] = 1 + Math.min( Math.min(q, p),r);
-            }
-            // current row -> previous row (Copy pasting)
-            for (int j = 0; j <= n; j++) {
-                dp[0][j] = dp[1][j];
+        int[][] dp = new int [m][n+1];
+        for(int i=0;i<dp.length;i++){
+            for(int j=0;j<dp[0].length;j++){
+                dp[i][j] = -1;
             }
         }
-        return dp[1][n];
+        return minSteps(m-1,n-1,a,b,dp);
+
+    }
+    public int minSteps(int i, int j,StringBuilder a ,StringBuilder b,int[][]dp){
+        if(i==-1) return j+1; // Base case
+        if(j==-1) return i+1; // Base case
+        if(dp[i][j] != -1) return dp[i][j];
+        if(a.charAt(i)==b.charAt(j)) return dp[i][j] = minSteps(i-1,j-1,a,b,dp);
+
+        else{// 3 kaj
+            int del = minSteps(i-1,j,a,b,dp);
+            int ins = minSteps(i,j-1,a,b,dp);
+            int rep = minSteps(i-1,j-1,a,b,dp);
+            return dp[i][j] = 1 + Math.min(Math.min(del,ins),rep);// 1 for count operation 
+        } 
+
     }
 }
