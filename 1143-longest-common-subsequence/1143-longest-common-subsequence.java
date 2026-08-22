@@ -16,3 +16,5 @@ class Solution {
         
     }
 }
+// S.C = O(n)
+// T.C = (m*n)
