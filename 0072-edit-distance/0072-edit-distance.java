@@ -1,19 +1,25 @@
 class Solution {
     public int minDistance(String a, String b) {
         int m = a.length(), n = b.length();
-        int[][] dp = new int [m][n];
-        if(m==0) return n;
-        if(n==0) return m;
-        for(int i=0;i<dp.length;i++){
-            for(int j=0;j<dp[0].length;j++){
-                int p = (j>=1 && i>=1)? dp[i-1][j-1]: (i==0 ? j : i);
-                int q = (j>=1) ? dp[i][j-1]: i;
-                int r = (i>=1) ? dp[i-1][j]: j;
-                if(a.charAt(i)==b.charAt(j)) dp[i][j] = p;
-                else dp[i][j] = 1 + Math.min(Math.min(q,p),r);
-                
+        if (m == 0) return n;
+        if (n == 0) return m;
+        int[][] dp = new int[2][n + 1];
+        // First row: a = ""
+        for (int j = 0; j <= n; j++)  dp[0][j] = j;
+        for (int i = 1; i <= m; i++) {
+            // First column
+            dp[1][0] = i;
+            for (int j = 1; j <= n; j++) {
+                int p = dp[0][j - 1]; // diagonal
+                int q = dp[1][j - 1]; // left
+                int r = dp[0][j];     // up
+                if (a.charAt(i - 1) == b.charAt(j - 1))  dp[1][j] = p; else dp[1][j] = 1 + Math.min( Math.min(q, p),r);
+            }
+            // current row -> previous row (Copy pasting)
+            for (int j = 0; j <= n; j++) {
+                dp[0][j] = dp[1][j];
             }
         }
-        return dp[m-1][n-1];
+        return dp[1][n];
     }
 }
