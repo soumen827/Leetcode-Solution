@@ -44,8 +44,7 @@ class Solution {
         while(i>=1 && j>=1){
            if(a.charAt(i-1)==b.charAt(j-1)){
                 str.append(a.charAt(i-1));
-                i--;
-                j--;
+                i--;j--;
             }
            else if(dp[i][j-1]>dp[i-1][j])  j--;
            else i--;
