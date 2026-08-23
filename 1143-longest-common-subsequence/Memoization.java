@@ -20,3 +20,5 @@ class Solution {
         
     }
 }
+// T.S = O(m*n)
+// A.S = O(m*n)
