@@ -12,10 +12,12 @@ class Solution {
         StringBuilder str = new StringBuilder("");
         int i = m, j =n;
         while(i>=1 && j>=1){
-           if(a.charAt(i-1)==b.charAt(j-1)) str.append(a.charAt(i-1));
-           if(dp[i][j-1]>dp[i-1][j])  j--;
+           if(a.charAt(i-1)==b.charAt(j-1)){
+                str.append(a.charAt(i-1));
+                i--; j--;
+            }
+           else if(dp[i][j-1]>dp[i-1][j])  j--;
            else i--;
-           
         }
         System.out.println(str.reverse()); // reverse the StringBuilder
        return dp[m][n]; // store the lcs of substr(a,0,m-1)&(b,0,n-1);
