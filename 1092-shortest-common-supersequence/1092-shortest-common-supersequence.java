@@ -4,11 +4,11 @@ class Solution {
         int i=0,j=0,k=0; // i is for a , j is for b , k is for lcs Str
         String scs = "";
         while(i<s1.length() && j<s2.length() && k<lcs.length()){
-            while(i<s1.length() && s1.charAt(i) != lcs.charAt(k)){
+            while(s1.charAt(i) != lcs.charAt(k)){
                 scs += s1.charAt(i);
                 i++;
             }
-            while(j<s2.length() && s2.charAt(j) != lcs.charAt(k)){
+            while(s2.charAt(j) != lcs.charAt(k)){
                 scs += s2.charAt(j);
                 j++;
             }
