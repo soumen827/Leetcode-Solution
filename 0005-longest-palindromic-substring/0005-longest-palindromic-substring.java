@@ -1,25 +1,38 @@
 class Solution {
-    public String longestPalindrome(String s) {
-        if (s == null || s.length() == 0) return "";
-        int start = 0, end = 0;
-        for (int i = 0; i < s.length(); i++) {
-            int len1 = expand(s, i, i);     // odd length
-            int len2 = expand(s, i, i + 1); // even length
-            int len = Math.max(len1, len2);
-            if (len > end - start) {
-                start = i - (len - 1) / 2;
-                end   = i + len / 2;
+     public String longestPalindrome(String s) {
+        int n = s.length();
+        int [][] dp = new int [n][n];
+        int start =0; // first idx of the palindrome
+        int end =0;   // last idx of the palindrome
+        int maxLen = 0;
+        for(int k=0;k<n;k++){
+            int i=0 , j = k;
+            while(j<n){
+                if(i==j){//1 length
+                     dp[i][j] =1;
+                }
+                else if(j==i+1){ // for 2 length
+                    if(s.charAt(i)==s.charAt(j)){
+                         dp[i][j] =1;
+                    }
+                }
+                else{
+                    if(s.charAt(i)==s.charAt(j) && dp[i+1][j-1]==1){
+                            dp[i][j] =1;
+                           
+                    }
+                }
+                if(dp[i][j]==1){ // palindrome hay
+                    int len = j-i+1; // len nikala
+                    if(len>maxLen){//max se bara hua to to ab oh max hay
+                        maxLen = len;
+                        start =i;
+                        end =j;
+                    }
+                }
+                i++;j++;   
             }
         }
-
-        return s.substring(start, end + 1);
-    }
-    private int expand(String s, int left, int right) {
-        while (left >= 0 && right < s.length() && 
-               s.charAt(left) == s.charAt(right)) {
-            left--;
-            right++;
-        }
-        return right - left - 1;
+        return s.substring(start,end+1); // end+1 karon akta kom lei
     }
 }
