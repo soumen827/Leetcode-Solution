@@ -23,9 +23,9 @@ class Solution {
         
     }
     public int diameterOfBinaryTree(TreeNode root){
-         maxDia = 0;
-         levels(root);
-         return maxDia;
+        maxDia = 0;
+        levels(root);
+        return maxDia;
 
     }
 }
