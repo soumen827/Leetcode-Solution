@@ -21,7 +21,6 @@ class Solution {
 
         return 1 +Math.max(leftLevels,rightLevels);
         
-
     }
     public int diameterOfBinaryTree(TreeNode root){
          maxDia = 0;
