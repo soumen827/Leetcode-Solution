@@ -4,7 +4,7 @@ class Solution {
         int [][] dp = new int [n][n];
         int count =0;
         for(int k=0;k<n;k++){
-            int i=0 , j =k;
+            int i=0 , j = k;
             while(j<n){
                 if(i==j){//1 length
                      dp[i][j] =1; count++;
