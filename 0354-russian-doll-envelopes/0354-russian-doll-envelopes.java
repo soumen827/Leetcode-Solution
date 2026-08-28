@@ -7,9 +7,7 @@ class Solution {
             this.h = h;
         }
         public int compareTo(Envelop e) {
-            if (this.w == e.w)
-                return e.h - this.h;
-
+            if (this.w == e.w) return e.h - this.h;
             return this.w - e.w;
         }
     }
@@ -30,25 +28,18 @@ class Solution {
         for (int i = 0; i < n; i++) {
 
             int h = arr[i].h;
-            // Binary Search 
+            // Binary Search Extra
             int lo = 0;
             int hi = size;
-
             while (lo < hi) {
                 int mid = lo + (hi - lo) / 2;
 
-                if (lis[mid] < h)
-                    lo = mid + 1;
-                else
-                    hi = mid;
+                if (lis[mid] < h) lo = mid + 1;
+                else  hi = mid;
             }
-
             lis[lo] = h;
-
-            if (lo == size)
-                size++;
+            if (lo == size)  size++;
         }
-
         return size;
     }
 }
