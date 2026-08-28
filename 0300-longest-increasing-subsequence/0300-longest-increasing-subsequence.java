@@ -7,7 +7,7 @@ class Solution {
             for(int j=i;j>=0;j--){
                 if(nums[j]<nums[i]) dp[i] = Math.max(dp[i],dp[j]);
             }
-            dp[i] += 1;
+            dp[i] += 1; // for idx i 
             max = Math.max(max,dp[i]);
         }
         return max;
