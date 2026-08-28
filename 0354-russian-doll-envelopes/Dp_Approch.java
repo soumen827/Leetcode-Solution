@@ -34,3 +34,4 @@ class Solution {
         return max;
     }
 }
+// T.C = O(N^2) TLE problem in leetcode
