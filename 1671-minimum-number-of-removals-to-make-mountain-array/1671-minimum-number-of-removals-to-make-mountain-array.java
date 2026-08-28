@@ -25,6 +25,6 @@ class Solution {
             }
         }
         if(maxLen<3) return 0; // for mountain arry min 3 ta idx dorkar
-        return n-maxLen;
+        return n-maxLen; // len se maxLen '-' karoge to kitna reomve karna hay nikal jaya ga
     }
 }
