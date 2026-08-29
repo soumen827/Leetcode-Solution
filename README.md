@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/soumen827/Leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1497-check-if-array-pairs-are-divisible-by-k](https://github.com/soumen827/Leetcode/tree/master/1497-check-if-array-pairs-are-divisible-by-k) |
 | [1539-kth-missing-positive-number](https://github.com/soumen827/Leetcode/tree/master/1539-kth-missing-positive-number) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/soumen827/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/soumen827/Leetcode/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/soumen827/Leetcode/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/soumen827/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1277-count-square-submatrices-with-all-ones](https://github.com/soumen827/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/soumen827/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/soumen827/Leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/soumen827/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/soumen827/Leetcode/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [2560-house-robber-iv](https://github.com/soumen827/Leetcode/tree/master/2560-house-robber-iv) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/soumen827/Leetcode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
@@ -433,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/soumen827/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/soumen827/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/soumen827/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/soumen827/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/soumen827/Leetcode/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/soumen827/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2094-finding-3-digit-even-numbers](https://github.com/soumen827/Leetcode/tree/master/2094-finding-3-digit-even-numbers) |
