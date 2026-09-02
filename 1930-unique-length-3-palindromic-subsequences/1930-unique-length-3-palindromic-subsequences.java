@@ -8,7 +8,6 @@ class Solution {
             if (!map1.containsKey(ch))
                 map1.put(ch, i);
             map2.put(ch,i);
-            
         }
         int count = 0;
         for (char ch : map1.keySet()) {
