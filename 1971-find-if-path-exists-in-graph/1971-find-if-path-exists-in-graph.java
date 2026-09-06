@@ -26,7 +26,7 @@ class Solution {
                 if(!vis[ele]) {
                     vis[ele] = true;
                     q.add(ele);
-                    if(ele == end) return;
+                    if(ele == end) return; //end ohi aa gaya to khatam karo or chalanega jarurat nehi hay
                 }
             }
 
