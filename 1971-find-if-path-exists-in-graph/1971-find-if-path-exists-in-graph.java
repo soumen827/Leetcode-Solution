@@ -12,11 +12,11 @@ class Solution {
             adj.get(b).add(a);
         }
         boolean [] vis = new boolean[n];
-        bfs(start,vis,adj);
+        bfs(start,vis,adj,end);
         return vis[end]; // false hoga to same nehi hay T to same hay
     }
 
-    public void bfs(int start,boolean [] vis,List<List<Integer>> adj){
+    public void bfs(int start,boolean [] vis,List<List<Integer>> adj,int end){
         vis[start] = true;
         Queue<Integer> q = new LinkedList<>();
         q.add(start);
@@ -26,6 +26,7 @@ class Solution {
                 if(!vis[ele]) {
                     vis[ele] = true;
                     q.add(ele);
+                    if(ele == end) return;
                 }
             }
 
