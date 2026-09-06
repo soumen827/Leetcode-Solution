@@ -2,18 +2,17 @@ class Solution {
     public boolean canVisitAllRooms(List<List<Integer>> adj) {
         int n = adj.size();
         boolean [] Visited = new boolean[n];
-        Visited[0] = true;
+        // Visited[0] = true;
         
         bfs(0,Visited,adj);
         for(int i=0;i<n;i++){
-            if(Visited[i]==false) return false;
-            
+            if(Visited[i]==false) return false; 
         }
-         return true;
+        return true;
     }
     public void bfs(int i,boolean [] Visited,List<List<Integer>> adj){
         int n =  adj.size();
-        //Visited[i] = true;
+        Visited[0] = true;
         Queue<Integer> q = new LinkedList<>();
         q.add(i);
          while(q.size()>0){
