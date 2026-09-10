@@ -53,7 +53,7 @@ class Solution {
                     vis[row][col+1] = true;
                 }
             }
-             // Left >- row, col-1
+            //  // Left >- row, col-1
             if(col>0){
                 if(vis[row][col-1]==false && grid[row][col-1]=='1'){
                     q.add(new Pair(row,col-1));
