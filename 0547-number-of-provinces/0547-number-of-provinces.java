@@ -6,7 +6,8 @@ class Solution {
 
         for(int i=0;i<n;i++){
             if(!Visited[i]){
-                bfs(i,Visited,adj);
+                //bfs(i,Visited,adj);
+                dfs(i,Visited,adj);
                 count ++;
             }
         }
@@ -27,5 +28,14 @@ class Solution {
             }
 
          }
+    }
+    public void dfs(int i,boolean [] Visited,int[][] adj){
+        int n = adj.length;
+        Visited[i] = true;
+        for(int j=0;j<n;j++){
+            if(adj[i][j]==1 && Visited[j]==false){
+                dfs(j,Visited,adj);
+            }
+        }
     }
 }
