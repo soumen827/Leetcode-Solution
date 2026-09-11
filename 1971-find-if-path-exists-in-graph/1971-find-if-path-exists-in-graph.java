@@ -12,7 +12,8 @@ class Solution {
             adj.get(b).add(a);
         }
         boolean [] vis = new boolean[n];
-        bfs(start,vis,adj,end);
+        //bfs(start,vis,adj,end);
+        dfs(start,vis,adj,end);
         return vis[end]; // false hoga to same nehi hay T to same hay
     }
 
@@ -30,6 +31,12 @@ class Solution {
                 }
             }
 
+        }
+    }
+    public void dfs(int start,boolean [] vis,List<List<Integer>> adj,int end){
+        vis[start] = true;
+        for(int ele: adj.get(start)){
+            if(vis[ele]==false) dfs(ele,vis,adj,end);
         }
     } 
 }
