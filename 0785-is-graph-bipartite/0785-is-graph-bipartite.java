@@ -15,7 +15,7 @@ class Solution {
     }
     public void bfs(int i, int[][]adj,int[]vis){
         Queue<Integer> q = new LinkedList<>();
-        vis[i] =0; // 1- Red, 0- Blue
+        vis[i] =1; // 1- Red, 0- Blue. i
         q.add(i);
         while(q.size()>0){
             int front = q.remove();
