@@ -3,7 +3,8 @@ class Solution {
         int n = adj.size();
         boolean [] Visited = new boolean[n];
         
-        bfs(0,Visited,adj);
+        // bfs(0,Visited,adj);
+        dfs(0,Visited,adj);
         for(int i=0;i<n;i++){
             if(Visited[i]==false) return false; 
         }
@@ -23,6 +24,13 @@ class Solution {
                 }
             }
 
+        }
+    }
+    public void dfs(int i,boolean [] Visited,List<List<Integer>> adj){
+        Visited[i] = true;
+        int n =  adj.size();
+        for(int ele: adj.get(i)){
+            if(Visited[ele]==false)dfs(ele,Visited,adj);
         }
     }
 }
