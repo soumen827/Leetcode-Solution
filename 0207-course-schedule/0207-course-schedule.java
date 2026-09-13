@@ -30,7 +30,6 @@ class Solution {
                 if(indegree[ele] == 0) q.add(ele);
             }
         }
-        if(ans.size()==n) return true;
-        else return false;
+        return (ans.size()==n);
     }
 }
