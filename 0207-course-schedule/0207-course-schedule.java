@@ -11,7 +11,7 @@ class Solution {
             // Kahn's Algorithm
         int[] indegree = new int[n];
 
-        // Calculate indegree
+       // Calculate indegree
         for(int i = 0; i < n; i++) {
             for(int ele : adj.get(i)) indegree[ele]++;
         }
@@ -21,7 +21,6 @@ class Solution {
         for(int i = 0; i < n; i++){
             if(indegree[i] == 0) q.add(i);
         }
-        
         // BFS
         while(q.size()>0) {
             int front = q.remove();
