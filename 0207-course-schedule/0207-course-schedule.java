@@ -7,9 +7,10 @@ class Solution {
         for(int[] edge : edges) {
             int a = edge[0] , b = edge[1];
             adj.get(b).add(a);
+             
         }
             // Kahn's Algorithm
-        int[] indegree = new int[n];
+            int[] indegree = new int[n];
 
        // Calculate indegree
         for(int i = 0; i < n; i++) {
