@@ -6,7 +6,7 @@ class Solution {
         // Build graph
         for(int[] edge : edges) {
             int a = edge[0] , b = edge[1];
-            adj.get(a).add(b);
+            adj.get(b).add(a);
         }
             // Kahn's Algorithm
         int[] indegree = new int[n];
