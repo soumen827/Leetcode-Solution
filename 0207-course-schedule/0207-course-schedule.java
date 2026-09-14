@@ -1,5 +1,7 @@
 class Solution {
+    static boolean ans;
     public boolean canFinish(int n, int[][] edges) {
+        ans = true; // no cycle 
         // Create adjacency list
         List<List<Integer>> adj = new ArrayList<>();
         for(int i = 0; i < n; i++)   adj.add(new ArrayList<>());
@@ -9,28 +11,24 @@ class Solution {
             adj.get(b).add(a);
              
         }
-            // Kahn's Algorithm
-            int[] indegree = new int[n];
-
-       // Calculate indegree
-        for(int i = 0; i < n; i++) {
-            for(int ele : adj.get(i)) indegree[ele]++;
+        boolean[] vis = new boolean[n];
+        boolean[] path = new boolean[n];
+        for(int i=0;i<n;i++){
+            if(vis[i]==false) dfs(i,adj,vis,path); // for mulipale dfs
         }
-        Queue<Integer> q = new LinkedList<>();
-        List<Integer> ans = new ArrayList<>();
-        // Add all indegree 0 nodes
-        for(int i = 0; i < n; i++){
-            if(indegree[i] == 0) q.add(i);
-        }
-        // BFS
-        while(q.size()>0) {
-            int front = q.remove();
-            ans.add(front);
-            for(int ele : adj.get(front)) {
-                indegree[ele]--;
-                if(indegree[ele] == 0) q.add(ele);
+        return ans;
+          
+    }
+    public void dfs(int i,List<List<Integer>> adj,boolean[]vis,boolean[]path){
+        vis[i] = true;
+        path[i] = true;
+        for(int ele: adj.get(i)){
+            if(path[ele]==true){
+                ans = false; // false means cycle hay
+                return;
             }
+            if(vis[ele]==false) dfs(ele,adj,vis,path);
         }
-        return (ans.size()==n);
+        path[i] = false;
     }
 }
