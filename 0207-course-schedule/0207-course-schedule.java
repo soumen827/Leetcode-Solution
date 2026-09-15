@@ -4,7 +4,7 @@ class Solution {
         ans = true; // no cycle 
         // Create adjacency list
         List<List<Integer>> adj = new ArrayList<>();
-        for(int i = 0; i < n; i++)   adj.add(new ArrayList<>());
+        for(int i=0;i<n;i++)   adj.add(new ArrayList<>());
         // Build graph
         for(int[] edge : edges) {
             int a = edge[0] , b = edge[1];
