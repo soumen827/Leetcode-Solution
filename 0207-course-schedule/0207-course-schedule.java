@@ -17,7 +17,6 @@ class Solution {
             if(vis[i]==false) dfs(i,adj,vis,path); // for mulipale dfs
         }
         return ans;
-          
     }
     public void dfs(int i,List<List<Integer>> adj,boolean[]vis,boolean[]path){
         vis[i] = true;
