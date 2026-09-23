@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1514-path-with-maximum-probability](https://github.com/soumen827/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1539-kth-missing-positive-number](https://github.com/soumen827/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/soumen827/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
+| [1631-path-with-minimum-effort](https://github.com/soumen827/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/soumen827/Leetcode/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/soumen827/Leetcode/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/soumen827/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/soumen827/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/soumen827/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1539-kth-missing-positive-number](https://github.com/soumen827/Leetcode/tree/master/1539-kth-missing-positive-number) |
+| [1631-path-with-minimum-effort](https://github.com/soumen827/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/soumen827/Leetcode/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/soumen827/Leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/soumen827/Leetcode/tree/master/2389-longest-subsequence-with-limited-sum) |
@@ -357,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/soumen827/Leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/soumen827/Leetcode/tree/master/1046-last-stone-weight) |
 | [1514-path-with-maximum-probability](https://github.com/soumen827/Leetcode/tree/master/1514-path-with-maximum-probability) |
+| [1631-path-with-minimum-effort](https://github.com/soumen827/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Merge Sort
 |  |
 | ------- |
@@ -415,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-transpose-matrix](https://github.com/soumen827/Leetcode/tree/master/0867-transpose-matrix) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/soumen827/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1284-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix](https://github.com/soumen827/Leetcode/tree/master/1284-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/soumen827/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2596-check-knight-tour-configuration](https://github.com/soumen827/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Simulation
 |  |
@@ -513,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0938-range-sum-of-bst](https://github.com/soumen827/Leetcode/tree/master/0938-range-sum-of-bst) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/soumen827/Leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/soumen827/Leetcode/tree/master/1382-balance-a-binary-search-tree) |
+| [1631-path-with-minimum-effort](https://github.com/soumen827/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/soumen827/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 | [2596-check-knight-tour-configuration](https://github.com/soumen827/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Binary Tree
@@ -579,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/soumen827/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/soumen827/Leetcode/tree/master/0841-keys-and-rooms) |
 | [1284-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix](https://github.com/soumen827/Leetcode/tree/master/1284-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/soumen827/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/soumen827/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 | [2596-check-knight-tour-configuration](https://github.com/soumen827/Leetcode/tree/master/2596-check-knight-tour-configuration) |
 ## Design
@@ -721,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/soumen827/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/soumen827/Leetcode/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/soumen827/Leetcode/tree/master/0785-is-graph-bipartite) |
+| [1631-path-with-minimum-effort](https://github.com/soumen827/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/soumen827/Leetcode/tree/master/1971-find-if-path-exists-in-graph) |
 ## Graph Theory
 |  |
@@ -770,4 +777,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/soumen827/Leetcode/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/soumen827/Leetcode/tree/master/1514-path-with-maximum-probability) |
+| [1631-path-with-minimum-effort](https://github.com/soumen827/Leetcode/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
