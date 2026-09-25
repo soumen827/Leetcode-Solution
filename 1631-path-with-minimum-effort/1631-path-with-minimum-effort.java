@@ -44,7 +44,6 @@ class Solution {
                     ans[row][col-1] = e;
                     pq.add(new Triplet(row,col-1,e));
                 }
-
             }
             if(row<m-1){ // going down row+1
                 int e = Math.abs(arr[row][col]-arr[row+1][col]);
@@ -53,7 +52,6 @@ class Solution {
                     ans[row+1][col] = e;
                     pq.add(new Triplet(row+1,col,e));
                 }
-
             }
             if(col<n-1){ // going right col+1
                 int e = Math.abs(arr[row][col]- arr[row][col+1]);
@@ -62,7 +60,6 @@ class Solution {
                     ans[row][col+1] = e;
                     pq.add(new Triplet(row,col+1,e));
                 }
-
             }
         }
         return ans[m-1][n-1];
