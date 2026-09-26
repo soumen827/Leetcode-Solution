@@ -40,7 +40,6 @@ class Solution {
         while(pq.size()>0){
             Triplet top = pq.remove();
             int node = top.node,cost= top.cost, stops = top.stops;
-            //if(node==dst) return ans[node]; // ans a gaya
             if(stops==k+1) continue; // nehi lunga 
             for(Pair p:adj.get(node)){
                 int totalCost = cost + p.cost;
