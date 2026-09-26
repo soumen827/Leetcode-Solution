@@ -18,7 +18,7 @@ class Solution {
             this.stops = stops;
         }
         public int compareTo(Triplet T){
-            if(this.stops==T.stops) return this.cost - T.cost; 
+            if(this.stops==T.stops) return this.node - T.node; 
             return this.stops-T.stops;
         }
     }
