@@ -35,7 +35,8 @@ class Solution {
         int[] ans = new int[n];
         Arrays.fill(ans,Integer.MAX_VALUE);
         ans[src] =0;
-        PriorityQueue<Triplet> pq = new PriorityQueue<>();
+        //PriorityQueue<Triplet> pq = new PriorityQueue<>();
+        Queue<Triplet> pq = new LinkedList<>();
         pq.add(new Triplet(src,0,0));
         while(pq.size()>0){
             Triplet top = pq.remove();
