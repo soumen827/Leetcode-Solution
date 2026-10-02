@@ -4,7 +4,11 @@
 
     public int find(int a){
         if(parent[a]==a) return a; // nijer paernt nije(khud group leader)
-        return find(parent[a]); // else recursion
+        
+        // int leader = find(parent[a]);
+        // parent[a] = leader // path compressssssssssssss
+        // return leader;
+        return parent[a] = find(parent[a]); // path compresssion
     }
     public void Union(int a, int b){
          a = find(a);
