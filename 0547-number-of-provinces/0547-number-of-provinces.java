@@ -31,7 +31,7 @@
         for(int i=1;i<=n;i++){
             parent[i] =i; // at first all are leader 
             size[i] =i; // initial sabke size 1
-            }
+        }
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
                 // edges is from i+1 to j+1
