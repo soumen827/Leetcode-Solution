@@ -3,7 +3,7 @@ class Solution {
     static int[] size;
     public int leader(int u){
         if(parent[u]==u) return u;
-        return leader(parent[u]);
+        return parent[u] = leader(parent[u]); // use DP
     }
     public void Union(int u,int v){
         int a = leader(u);
@@ -32,10 +32,9 @@ class Solution {
             int u = arr[0];
             int v= arr[1];
             if(leader(u)==leader(v)){// cycle detected
-                ans[0] =u ; ans[1] = v; break; // ans arr me var do 
+                ans[0] =u ; ans[1] = v; break; // ans arr me dal ke return kar do
             }
-            else Union(u,v); // nehi to union ksrte jao
-
+            else Union(u,v); // nehi to union ks\arte jao
         }
         return ans;
     }
