@@ -1,41 +1,32 @@
 class Solution {
-    public int findCircleNum(int[][] adj) {
-        int n = adj.length;
-        boolean [] Visited = new boolean [n];
-        int count =0;
-
+    static int[] parent;
+    public int find(int a){
+        if(parent[a]==a) return a; // nijer paernt nije(khud group leader)
+        return find(parent[a]); // else recursion
+    }
+    public void Union(int a, int b){
+        int leaderA = find(a);
+        int leaderB = find(b);
+        if(leaderA != leaderB){ // if same component then ignore
+            parent[leaderB] = leaderA; // connect 2 group leader
+        }
+    }
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        parent = new int[n+1]; // parent arry
+        for(int i=1;i<=n;i++){
+            parent[i] =i; // at first all are leader 
+        }
         for(int i=0;i<n;i++){
-            if(!Visited[i]){
-                //bfs(i,Visited,adj);
-                dfs(i,Visited,adj);
-                count ++;
-            }
-        }
-        return count ;
-    }
-    public void bfs(int i,boolean [] Visited,int[][] adj){
-        int n = adj.length;
-        Visited[i] = true;
-        Queue<Integer> q = new LinkedList<>();
-        q.add(i);
-         while(q.size()>0){
-            int front = q.remove();
             for(int j=0;j<n;j++){
-                if(Visited[j]== false && adj[front][j]==1){ // adj matix me koi connection hoga to AND adjacency matrix false hona hoga 
-                    q.add(j);
-                    Visited[j] = true;
-                }
-            }
-
-         }
-    }
-    public void dfs(int i,boolean [] Visited,int[][] adj){
-        int n = adj.length;
-        Visited[i] = true;
-        for(int j=0;j<n;j++){
-            if(adj[i][j]==1 && Visited[j]==false){
-                dfs(j,Visited,adj);
+                // edges is from i+1 to j+1
+                if(i!=j && isConnected[i][j]==1) Union(i+1,j+1); // Connection Group leaders of i+1 to j+1
             }
         }
+        int count =0;
+        for(int i=1;i<=n;i++){
+            if(parent[i]==i) count++;
+        }
+        return count;
     }
 }
