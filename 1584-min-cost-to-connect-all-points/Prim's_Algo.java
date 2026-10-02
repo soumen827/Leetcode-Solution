@@ -1,0 +1,48 @@
+class Solution {
+    public class Pair {
+        int node;
+        int cost;
+        Pair(int node, int cost ) {
+            this.node = node;
+            this.cost = cost;
+        }
+    }
+    public class Triplet implements Comparable<Triplet>{
+        int node;
+        int parent;
+        int dist;
+        Triplet(int node, int parent,int dist ) {
+            this.node = node;
+            this.parent = parent;
+            this.dist = dist;
+        }
+        public int compareTo(Triplet T){
+            if(this.dist==T.dist) return this.node - T.node; 
+            return this.dist-T.dist;
+        }
+    }
+    public int minCostConnectPoints(int[][] points) {
+        int n = points.length;
+        PriorityQueue<Triplet> pq = new PriorityQueue<>();
+        pq.add(new Triplet(0,-1,0));
+        int sum =0;
+        boolean[] vis = new boolean[n];
+        // vis[0] = true;
+        while(pq.size()>0){
+            Triplet top = pq.remove();
+            int node = top.node, parent = top.parent, dist = top.dist;
+            if(vis[node]==true) continue;
+            sum += dist;
+            vis[node] = true;
+            for(int i=0;i<n;i++){
+                if(i==node|| i== parent) continue;
+                if(vis[i]==true) continue;
+                int x1 = points[node][0], y1 = points[node][1];
+                int x2 = points[i][0], y2 = points[i][1];
+                int mDist = Math.abs(x2-x1) + Math.abs(y2-y1);
+                pq.add(new Triplet(i,node,mDist));
+            }
+        }
+        return sum;
+    }
+}
