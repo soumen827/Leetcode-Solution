@@ -54,11 +54,11 @@ class Solution {
 
             }
         }
-        int cost =0 ;
+        int cost =0;
         while(pq.size()>0){
             Triplet top = pq.remove();
             int u = top.u , v= top.v , dist = top.dist;
-            if(leader(u)!=leader(v)){ // not cycle
+            if(leader(u)!=leader(v)){ // not cycle Kruskal's Algo
                 cost += dist;
                 Union(u,v);
             }
