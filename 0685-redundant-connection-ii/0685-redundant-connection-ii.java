@@ -31,7 +31,6 @@ class Solution {
     }
 
     public int[] findRedundantDirectedConnection(int[][] edges) {
-
         int n = edges.length;
 
         parent = new int[n + 1];
@@ -56,7 +55,6 @@ class Solution {
             int v = arr[1];
 
             if(directParent[v] == 0) {
-
                 directParent[v] = u;
 
             }
@@ -69,7 +67,6 @@ class Solution {
                 edge2 = new int[]{u, v};
             }
         }
-
         // Now apply DSU
         for(int[] arr : edges) {
 
